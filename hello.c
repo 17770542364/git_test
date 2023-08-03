@@ -9,8 +9,19 @@
  * 
  */
 #include <stdio.h>
+#include "hello.h"
 
+/**
+ * @brief main function
+ * 
+ * @param argc 
+ * @param argv 
+ * @return int 
+ */
 int main(int argc, char **argv){
     printf("Hello World!\n");
+
+    // TODO: web服务器功能
+    int a;
     return 0;
 }
